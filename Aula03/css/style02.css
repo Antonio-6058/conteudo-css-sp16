@@ -1,0 +1,40 @@
+body{
+    background-color: #999999;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+/*Utilizando paddings individuais*/
+p.ex1{
+    border: 2px solid blueviolet;
+    padding-top: 30px;
+    padding-right: 70px;
+    padding-bottom: 50px ;
+    padding-left: 100px;
+}
+/*Utilizando padding com propriedade abreviado*/
+p.pad-1, p.pad-2, p.pad-3, p.pad-4{
+    border: 2px solid lightseagreen;
+}
+p.pad-1{
+    padding: 30px;
+}
+p.pad-2{
+    padding: 30px 150px;
+}    
+p.pad-3{
+    padding: 30px 100px 200px;
+}
+p.pad-4{
+    padding: 30px 150px 200px 70px;
+}
+/*Largura de elemento sendo afetada por padding*/
+div.padding-width1 {
+  background-color: cadetblue;
+  width: 300px;
+}
+
+div.padding-width2 {
+  background-color: mediumorchid;
+  width: 300px;
+  padding: 25px;
+  box-sizing: border-box;
+}
