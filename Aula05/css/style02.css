@@ -1,0 +1,107 @@
+body{
+    background-color: #A67153;
+    font-family: sans;
+    color: #0f0f0f;
+    font-weight: bold;
+}
+
+.center1 div,
+.center2 div,
+.space-between2 div,
+.flex-start1 div,
+.flex-end1 div,
+.stretch1 div{
+    background-color:#733F2D;
+    color: #D99F59;
+    border: 2px solid #D99962;
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    align-content: center;
+}
+/* utilizando a propiedade align-items */
+/* os elementos ficarão centralizados no eixo vertical */
+.center1{
+    background-color: #733F2D;
+    border: 2px solid #D99F59;
+    padding: 10px;
+    display: flex;
+    gap: 20px;
+    height: 200px;
+    align-items: center;
+}
+/*alinhar no bordo superior/inicio*/
+.flex-start1{
+    background-color: #733F2D;
+    border: 2px solid #D99F59;
+    padding: 10px;
+    display: flex;
+    gap: 20px;
+    height: 200px;
+    align-items: flex-start;
+}
+/*para o final/bordo inferior verticalmente*/
+.flex-end1{
+    background-color: #733F2D;
+    border: 2px solid #D99F59;
+    padding: 10px;
+    display: flex;
+    gap: 20px;
+    height: 200px;
+    align-items: flex-end;
+}
+/* os elementos vão se esticar verticalmente */
+.stretch1{
+    background-color: #733F2D;
+    border: 2px solid #D99F59;
+    padding: 10px;
+    display: flex;
+    gap: 20px;
+    height: 200px;
+    align-items: stretch;
+}
+
+/* ultilizando a p´ropiedade align-content */
+.center2{
+     background-color: #733F2D;
+    border: 2px solid #D99F59;
+    padding: 10px;
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    height: 300px;
+    align-content: center;
+}
+.space-betweeen2{
+     background-color: #733F2D;
+    border: 2px solid #D99F59;
+    padding: 10px;
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    height: 300px;
+    align-content: space-between;
+}
+
+/* exemplo de centralização absoluta com flexbox */
+
+.container div{
+    background-color: #733F2D;
+    border: 2px solid #D99F59;
+    width: 250px;
+    height: 160px;
+    color: #0f0f0f;
+    align-content: center;
+    text-align: center;
+    font-weight: bold;
+}
+.container{
+    background-color: darkslategray;
+    padding: 10px;
+    border: 2px solid bisque;
+    height: 300px;
+    display: flex;
+    justify-content: center; /*alinha no eixo horizontal*/
+    align-items: center;  /*alinha no eixo vertical*/
+}
+.
