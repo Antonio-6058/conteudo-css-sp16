@@ -1,0 +1,25 @@
+body{
+    background-color: #403022;
+    font-family: serif;
+    color: #DBDDD8;
+     font-weight: bold;
+
+}
+
+.container {
+    background-color: #A68D77;
+    color: #DBDDD8;
+    border: 8px solid #26150B;
+    padding: 10px;
+    display: grid;
+    gap: 20px;
+    grid-template-columns: auto auto auto;
+}
+
+.container div {
+    background-color: #735840;
+    border: 4px solid #26150B;
+    color: #26150B;
+    text-align: center;
+    align-content: center;
+}

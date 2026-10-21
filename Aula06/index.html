@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Aula06 css</title>
+</head>
+<body>
+    <h1>Itens flexíciveis no flexbox</h1>
+    <h3>Propiedade order:</h3>
+    <!-- ordena os itens dentro de uma caixa flexícivel -->
+    <div class="order">
+        <div style="order: 4;">Item 1</div>
+        <div style="order: 1;">Item 2</div>
+        <div style="order: 2;">Item 3</div>
+        <div style="order: 3;">Item 4</div>
+    </div>
+    
+    <hr>
+
+    <h3>propiedade flex-grow:</h3>
+<!-- ordena a ordem e velocidade com que os intens se esticam na flexbox -->
+    <div class="flex-grow">
+        <div style="flex-grow: 1;">item1</div>
+        <div style="flex-grow: 1;">item2</div>
+        <div style="flex-grow: 4;">item3</div>
+        <div style="flex-grow: 1;">item4</div>
+    </div>
+
+    <hr>
+
+    <h3>propiedade flex-strink:</h3>
+<!-- ordena a ordem e velocidade com que os intens se espremem na flexbox -->
+    <div class="flex-shrink">
+        <div>item1</div>
+        <div style="flex-shrink: 4;">item2</div>
+        <div>item3</div>
+        <div>item4</div>
+    </div>
+    <hr>
+
+    <h3>propiedade flex-basis:</h3>
+<!-- ordena o tamanho inicial de uma propiedade dentro da flexbox -->
+    <div class="flex-basis">
+        <div>item1</div>
+        <div style="flex-basis: 250px;">item2</div>
+        <div>item3</div>
+        <div>item4</div>
+    </div>
+
+    <h3>propiedade flex:</h3>
+<!--abrevia as outras 3 propiedades-->
+    <div class="flex">
+        <div>item1</div>
+        <div style="flex:1 0 250px;">item2</div>
+        <div>item3</div>
+        <div>item4</div>
+    </div>
+
+    <hr>
+
+    <h3>propiedade align-self:</h3>
+<!--abrevia as outras 3 propiedades-->
+    <div class="align-self">
+        <div>item1</div>
+        <div>item2</div>
+        <div id="as-item3">item3</div>
+        <div>item4</div>
+    </div>
+
+    <hr>
+
+    
+
+
+
+    
+</body>
+</html>
